@@ -13,8 +13,7 @@ let dialogueLines = [
     //Narrator
     {string : "The sky above Gensokyo is splitting apart, forming a swirling, unstable time rift. Strange echoes of voices from the past and future can be faintly heard. Reimu Hakurei, normally calm, is panicking for once as she dashes through the streets of the Human Village, looking for answers.", speed: speeds.fast},
     //Reimu
-    {string : "(frustrated, looking up at the sky) What the hell is that thing!? Since when does Gensokyo have time rifts!? This isn’t normal—this is so not normal!
-", speed: speeds.normal},
+    {string : "(frustrated, looking up at the sky) What the hell is that thing!? Since when does Gensokyo have time rifts!? This isn’t normal—this is so not normal!", speed: speeds.normal},
     //Narrator
     {string : "(She rushes forward, searching for someone who could be responsible—or at least have answers. And then, as if on cue, she spots two very suspicious individuals standing in the middle of the road: Remilia Scarlet and Sakuya Izayoi. The two appear unusually calm despite the chaos above.)", speed: speeds.fast},
     //Reimu
