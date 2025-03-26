@@ -1,0 +1,41 @@
+.imgBG{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(This\ is\ vn.jpeg);
+}
+
+body{
+    overflow:hidden;
+}
+
+.text{
+    bottom: 0%;
+    color: white;
+    word-wrap:break-word;
+    background-color: rgba(0,0,0,0.9);
+    font-size: 20px;
+    word-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 1em;
+    border-bottom: 1vw solid black;
+    line-height: 1.2em;
+    height: 200px;
+    margin-top: auto;
+    position: fixed;
+    width: 100vw;
+}
+
+
+.text span{
+    opacity: 0;
+}
+
+.text span.revealed {
+    opacity: 1;
+}
+
+.text span.green{
+    color: green;
+}

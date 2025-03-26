@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../src/css/output.css" rel="stylesheet" />
+
+    <link href="../src/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="h-full">
+    <div>
+      <div class="bgImg">
+        <div id="popupOverlay" class="overlay-container ">
+          <div class="popup-box">
+            <h2 style="color: green">Hi! Welcome to Gensokyo!</h2>
+
+              <label class="form-label" for="name"> Username: </label>
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Enter Your Username"
+                id="name"
+                name="name"
+                required
+              />
+
+              <!--<label class="form-label" for="email">Email:</label>
+              <input
+                class="form-input"
+                type="email"
+                placeholder="Enter Your Email"
+                id="email"
+                name="email"
+                required
+              />-->
+
+              <button class="btn-submit" onclick="submitUsn()">Submit</button>
+
+
+            <button class="btn-close-popup" onclick="closePopup()">
+              Close
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="overlay w-screen h-screen flex justify-center items-center flex-col"
+        >
+          <div>
+            <h1 class="text-3xl font-bold underline text-center" id="title"></h1>
+          </div>
+          <div class="mt-9 -mb-7 inline-block w-auto divHg">
+            <img
+              src="../assets/Characters/sakuya.png"
+              class="object-center inline-block w-auto h-3/4"
+              id="charas"
+            />
+          </div>
+          <div class="flex">
+            <div class="mx-10">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded"
+                onclick="back()"
+              >
+                Back
+              </button>
+            </div>
+            <div class="mx-10 pointer-events-auto">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded"
+                onclick="next()"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+          <a href="../src/html/InGame.html" class="mt-8">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded"
+              onclick="StartTheGame()"
+            >
+              Start!
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
