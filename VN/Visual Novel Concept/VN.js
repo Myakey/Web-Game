@@ -1,7 +1,7 @@
 var container = document.querySelector(".text");
 var speeds = {
     pause : 500,
-    normal : 70,
+    normal : 30,
     fast : 10,
 };let textLines = [
     {string : "Hey! Did you hear that?!", speed: speeds.fast},
@@ -50,7 +50,6 @@ let dialogueLines = [
     {string : "(frowning for real now) No, it’s really not.", speed: speeds.normal},
     //Narrator
     {string : "(The wind picks up, and before anyone can react, the rift violently pulls them off their feet. Reimu, Sakuya, and Remilia are sucked into the vortex, their surroundings warping into a blur of light and shadow. The last thing they hear is the distorted echoes of distant, unknown voices—some familiar, some completely alien.)", speed: speeds.fast}
-    
 ]
 
 let storyTime = 0;
